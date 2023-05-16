@@ -1,0 +1,77 @@
+body{
+    color: white;
+}
+/*start nav*/
+
+.navigation ul li{
+    padding: 0 !important;
+}
+
+@media (min-width:992px) {
+    .navigation ul li{
+        font-size: 18px;
+    }
+}
+
+/*end nav*/
+
+/* start build */
+
+.build{
+    border-bottom: 1px solid black;
+}
+
+.build-it{
+    display: flex;
+    align-items: center
+}
+
+.build-it-img{
+    border: 20px solid silver;
+}
+
+/* end build */
+
+/* start transparent */
+
+.transparent {
+    height:500px;
+    background-color: rgba(71, 49, 138, 0.3);
+}
+
+.transparent img{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+/* end transparent */
+
+/* start connect */
+
+.iconblue{
+    color: blue;
+}
+
+.iconred{
+    color: red;
+}
+
+.iconblue:hover , .iconred:hover{
+    color: silver;
+}
+
+/* end connect */
+
+/* start footer */
+
+.footer h3{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+
+.end{
+    border-top:1px solid white;
+}
+/* end footer */
