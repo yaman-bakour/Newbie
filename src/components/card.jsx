@@ -9,7 +9,7 @@ const Cards = (props) => {
     return ( 
         <React.Fragment>
             <div className={`card ${props.layout} p-2 m-3 text-dark`}>
-                <img className='card-img-top' src={props.a.img} alt="" />
+                <img className='card-img-top' src={require(`../imgs/${props.a.img}`)} alt="" />
                 <div className='card-body'>
                     <h5 className='card-title'>{props.a.title}</h5>
                     <h6 className='card-subtitle text-muted mb-2'>{props.a.subtitle}</h6>

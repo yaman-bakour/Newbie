@@ -4,7 +4,7 @@ import React, { Component } from 'react';
          <div className='footer bg-dark p-3'>
              <div className='row no-gutters text-center'>
                 <div className='col-sm'>
-                    <img className='w-100' src={props.img} alt="" />
+                    <img className='w-100' src={require(`../imgs/${props.img}`)} alt="" />
                     <p>555-555-5555</p>
                     <p>email@myemail.com</p>
                     <p>100 street name</p>

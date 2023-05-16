@@ -32,25 +32,15 @@ const Build = (props) => {
             <div className='row no-gutters p-3 text-dark bg-light'>
                 <div className='col-md 6'>
                     <h1 className='build pb-4'>If you build it...</h1>
-                    <p>we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
                     </p>
-                    <p>we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    </p>
-                    <p>we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
-                    we can help you build everything you want by providing all the things you need
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
                     </p>
                     <a href='' className='btn btn-outline-secondary'>Learn More</a>
                 </div>
                 <div className='col-md-6 p-3 build-it'>
-                    <img className='w-100 build-it-img' src={props.img} alt="" />
+                    <img className='w-100 build-it-img' src={require(`../imgs/${props.img}`)} alt="" />
                 </div>
             </div>
         </React.Fragment>

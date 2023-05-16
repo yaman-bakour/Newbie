@@ -17,11 +17,11 @@ const Carousell = (props) => {
                     {props.data.map(a => 
                         a.id == 0 ? 
                         <div key={a.id} className='carousel-item active '>
-                            <img className='w-100' src={a.sliderimg} alt="" />
+                            <img className='w-100' src={require(`../imgs/${a.sliderimg}`)} alt="" />
                             <div className='carousel-caption d-block'></div>
                         </div> : 
                         <div key={a.id} className='carousel-item'>
-                            <img className='w-100' src={a.sliderimg} alt="" />
+                            <img className='w-100' src={require(`../imgs/${a.sliderimg}`)} alt="" />
                             <div className='carousel-caption d-block'></div>
                         </div> )}
                 </div>

@@ -7,7 +7,7 @@ const Transparent = (props) => {
     return ( 
         <div className='transparent'>
             <img style={({height : "100%" , width : "100%"})} 
-                src={props.img} alt="" />
+                src={require(`../imgs/${props.img}`)} alt="" />
         </div>
      );
 }
